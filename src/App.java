@@ -7,5 +7,15 @@
        System.out.println(a);
        b=3;
        System.out.println(b);
+       System.out.println(Person.bo);
+    }
+}
+
+class Person {
+
+    static char bo=6;
+    public static void main(String[] args) 
+    {
+        
     }
 }
