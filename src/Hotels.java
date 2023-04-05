@@ -4,8 +4,8 @@ class Hotels {
 
     void Bhuhari() {
         System.out.println("Thanks for choosing Bhuhari");
-        System.out.println("briyani");
-        System.out.println("Mutton briyani");
+       // System.out.println("briyani");
+        //System.out.println("Mutton briyani");
 
         Scanner sc = new Scanner(System.in);
       int select =  sc.nextInt();
