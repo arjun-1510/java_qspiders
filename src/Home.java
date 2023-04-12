@@ -1,8 +1,8 @@
-import java.util.Scanner;
+import  java.util.Scanner;
 
 class Workout {
 
-    void pages() 
+   public static void main(String args []) 
 
     {
 
@@ -11,7 +11,7 @@ class Workout {
         int password = 123;
 
        Scanner scn = new Scanner(System.in);
-      System.out.println("Enter Your UserName");
+      System.out.println("Enter Your Name");
        String use = scn.nextLine();
 
        System.out.println("Enter Your Password");
@@ -26,11 +26,10 @@ class Workout {
         System.out.println("S.S Hydrabhat Briyani");
         System.out.println("Bismi Briyani");
         System.out.println("Kfc India");
-        break;
 
-        /*Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter your Hotels");
-        int pick =  sc.nextInt(); */
+        sc.nextInt();
 
        
         
@@ -43,27 +42,24 @@ class Workout {
      }
 
         
-    }
-}
+
+        
  
         
        
 
 
       
-       
+       }
 
-       
+       }
         
        
     
-    
-
-
-
 
     
     
+
 
 
 
